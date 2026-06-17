@@ -1,11 +1,11 @@
-import express, { Express, Request, Response } from 'express';
+import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-const app: Express = express();
+const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
@@ -25,11 +25,11 @@ const connectDB = async () => {
 };
 
 // Routes
-app.get('/api/health', (req: Request, res: Response) => {
+app.get('/api/health', (req: any, res: any) => {
   res.json({ status: 'Server is running! 🎮' });
 });
 
-app.get('/api/subjects', (req: Request, res: Response) => {
+app.get('/api/subjects', (req: any, res: any) => {
   res.json([
     {
       id: 'math',
@@ -52,7 +52,7 @@ app.get('/api/subjects', (req: Request, res: Response) => {
   ]);
 });
 
-app.get('/api/difficulties', (req: Request, res: Response) => {
+app.get('/api/difficulties', (req: any, res: any) => {
   res.json([
     { id: 'beginner', name: 'Beginner', ageRange: '6-8', pointsMultiplier: 10 },
     { id: 'intermediate', name: 'Intermediate', ageRange: '9-11', pointsMultiplier: 25 },
