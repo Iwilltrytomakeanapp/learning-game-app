@@ -1,0 +1,22 @@
+{
+  "subject": "science",
+  "difficulty": "beginner",
+  "questions": [
+    {
+      "category": "Life Science",
+      "question": "What do plants need to grow?",
+      "options": ["Water and sunlight", "Only water", "Only sunlight", "Nothing"],
+      "correctAnswer": 0,
+      "explanation": "Plants need both water and sunlight to grow healthy and strong!",
+      "hints": ["Think about a plant in your home"]
+    },
+    {
+      "category": "Animal Science",
+      "question": "What do birds use their wings for?",
+      "options": ["Flying", "Swimming", "Digging", "Climbing"],
+      "correctAnswer": 0,
+      "explanation": "Birds use their wings to fly through the air and move around!",
+      "hints": ["What does a bird do in the sky?"]
+    }
+  ]
+}

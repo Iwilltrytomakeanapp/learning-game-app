@@ -1,0 +1,30 @@
+{
+  "subject": "math",
+  "difficulty": "beginner",
+  "questions": [
+    {
+      "category": "Arithmetic",
+      "question": "What is 2 + 3?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 1,
+      "explanation": "When you add 2 and 3 together, you get 5! Try counting on your fingers.",
+      "hints": ["Count: 1, 2, 3, 4, 5"]
+    },
+    {
+      "category": "Counting",
+      "question": "How many apples are there in a group of 3 apples and another group of 2 apples?",
+      "options": ["3", "4", "5", "6"],
+      "correctAnswer": 2,
+      "explanation": "3 apples + 2 apples = 5 apples!",
+      "hints": ["Add the two numbers together"]
+    },
+    {
+      "category": "Shapes",
+      "question": "How many sides does a triangle have?",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 1,
+      "explanation": "A triangle has 3 sides. That's where it gets its name - TRI means 3!",
+      "hints": ["Think of the corners of the shape"]
+    }
+  ]
+}

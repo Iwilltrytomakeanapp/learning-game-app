@@ -1,0 +1,22 @@
+{
+  "subject": "social-science",
+  "difficulty": "beginner",
+  "questions": [
+    {
+      "category": "Geography",
+      "question": "Which of these is a continent?",
+      "options": ["Africa", "Paris", "Texas", "New York"],
+      "correctAnswer": 0,
+      "explanation": "Africa is a continent! Continents are very large areas of land.",
+      "hints": ["A continent is the largest type of land area"]
+    },
+    {
+      "category": "Culture",
+      "question": "What is the capital of the United States?",
+      "options": ["New York", "Washington, D.C.", "Los Angeles", "Chicago"],
+      "correctAnswer": 1,
+      "explanation": "Washington, D.C. is where the President lives and works!",
+      "hints": ["It's where the government sits"]
+    }
+  ]
+}
