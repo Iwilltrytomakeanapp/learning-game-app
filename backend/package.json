@@ -2,6 +2,7 @@
   "name": "learning-game-backend",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "description": "Backend API for learning game application",
   "main": "dist/server.js",
   "scripts": {
